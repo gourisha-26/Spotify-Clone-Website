@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+    <ul>
+        <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+         <li>Home</li>
+        <li>About</li>
+    </ul>
+   </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of BTS</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img>
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="0" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img>
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="1" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img>
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="2" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img>
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="3" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img>
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="4" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img>
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="5" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img>
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="6" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img>
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="7" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img>
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="8" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img >
+                    <span class="songname">Lights</span>
+                    <span class="songlistplay"><span class="timestamp"><i id="9" class="far songitemplay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="ranger" id="progressbar" min="0" value="0" max="100" > <!--slider for music play button-->
+        <div class="icons">
+             <!--fontawesome icons-->
+             <i class="fas songitemplay fa-3x fa-step-backward" id="previous"></i>
+             <i class="far songitemplay fa-3x fa-play-circle" id="masterplay"></i>
+             <i class="fas songitemplay fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"><span id="mastersongname">  DNA - BTS</span>
+        </div>
+        
+    </div>
+    <script src="https://kit.fontawesome.com/901ed5c5fb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
